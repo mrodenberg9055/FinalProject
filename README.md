@@ -13,5 +13,33 @@
 
 
 ## Data Resources
-- Employment Statistic
+- Employment Statistics
 - Source: 
+
+
+
+## Contributors
+
+Aswitha Bachala
+
+Email: aswitha.bachala@gmail.com
+
+Chris Allen
+
+Email: 
+
+James Harkin
+
+Email: 
+
+Matt Rodenberg
+
+Email: 
+
+Sharona Jones
+
+Email:
+
+Viviane Chery-Webster
+
+Email:
