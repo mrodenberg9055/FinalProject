@@ -1,8 +1,10 @@
 # FinalProject - Data Analyst Job Placement Analysis
 ![image](https://user-images.githubusercontent.com/87907584/147476902-32ce9208-6abb-47ef-9dd0-c538478dbf67.png)
+### [Google Slides Presentation](https://docs.google.com/presentation/d/13dTnXjnmqY02B5p23VXAq6WMEDNvwSjT_NYVZOQXoYg/edit?usp=sharing)
 
 ## Topic: 
 Where is the best place for an up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleages on how location can effect job opportunites.
+
 ## Source: Datasets were provided by the following sources
 - Job data datasets were scraped from Indeed.com
 - Cost of living dataset provided by the website 'AdvisorSmith Cost of living index'
