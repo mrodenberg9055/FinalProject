@@ -19,39 +19,6 @@ Where is the best place for an up and coming data analyst to work? We selected t
 - Yes or No decision based on variable
 - Determine what is Yes or No per variable
 
-#### Cost of living index by city (cost_of_living_index_by_city.csv)
-- outcome = 0 (no) index is >100
-- outcome = 1 (yes) index is <=100
-
-#### Unemployment by county (Unemployment_2020.csv)
-- outcome = 0 (no) rate is > 5%
-- outcome = 1 (yes) rate is <= 5%
-
-#### Median Income by county (Unemployment_2020.csv)
-- outcome = 0 (no) index is >100
-- outcome = 1 (yes) index is <=100
-
-#### Additional Features
-Postsecondary Locations, covid19 vaccination rates, job locations in the US etc....
-
-## Communication Protocols:
-#### The following communication protocols have been established within the group
--	One additional meeting is scheduled during the week to discuss upcoming deliverables and next plans of action.
--	Emails and phone numbers were exchanged in cases of emergency.
--	Group messaging within Slack is the primary source of communication.
-
-## Database:
-### CSV files containing selected datasets are located in the Resource folder<br/>
-![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/v-cityView.png)<br />
-### The ERD representation showcases the joins used to create and merger the datasets<br />
-![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
-
-## Machine Learning Model Outline
-- Machine Learning Model 
-- Logitics Regression model or Random Forest Classifier
-- Yes or no decision based on variable
-- Determine what is Yes or No per variable
-
 ### Cost of living index by city (cost_of_living_index_by_city.csv)
 - outcome = 0 (no) index is >=100
 - outcome = 1 (yes) index is <100
@@ -64,8 +31,24 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US etc.
 - outcome = 0 (no) index is <100
 - outcome = 1 (yes) index is >=100
 
-### Additional Features
-Postsecondary Locations, covid19 vaccination rates, job locations in the US
+#### Additional Features
+Postsecondary Locations, covid19 vaccination rates, job locations in the US and climate
+
+
+## Communication Protocols:
+#### The following communication protocols have been established within the group
+-	One additional meeting is scheduled during the week to discuss upcoming deliverables and next plans of action.
+-	Emails and phone numbers were exchanged in cases of emergency.
+-	Group messaging within Slack is the primary source of communication.
+
+## Database:
+### PGAdmin - NOTE: CSV files containing selected datasets are located in the Resource folder<br/>
+- Using the selected datasets, PGAdmin was used to host and join the data. <br/> 
+<img width="1120" alt="v-cityView" src="https://user-images.githubusercontent.com/87907584/147483637-55afe23e-ba91-4eaa-8daa-47a0727374be.png"> <br/>
+
+- The ERD representation showcases the joins used to create and merge the datasets<br/>
+![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
+
 
 ## Preliminary Results 
 A small sample of the dataset was used to train and a logistics regression model was used.  A preliminary accuracy score of 98% was a result.  Source code is located in the Notebooks folder of this repo 'logisticsRegression_code_sample'<br>
