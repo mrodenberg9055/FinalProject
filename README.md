@@ -1,4 +1,7 @@
-# FinalProject - Data Analyst Placement Analysis
+# FinalProject - Data Analyst Job Placement Analysis
+![image](https://user-images.githubusercontent.com/87907584/147476902-32ce9208-6abb-47ef-9dd0-c538478dbf67.png)
+
+
 ## Topic: 
 Where is the best place for an up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleges on how location can effect job opportunites.
 ## Source:
