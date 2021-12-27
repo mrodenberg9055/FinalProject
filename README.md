@@ -25,7 +25,7 @@ Where is the best place for an up and coming data analyst to work? We selected t
 
 #### Unemployment by county (Unemployment_2020.csv)
 - outcome = 0 (no) rate is > 5%
-- outcome = 1 (yes) rate is =< 5%
+- outcome = 1 (yes) rate is <= 5%
 
 #### Median Income by county (Unemployment_2020.csv)
 - outcome = 0 (no) index is >100
@@ -67,9 +67,6 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US etc.
 ### Additional Features
 Postsecondary Locations, covid19 vaccination rates, job locations in the US
 
-### Preliminary Results 
-A small sample of the dataset was used to train and a logistics regression model was used.  A preliminary accuracy score of 98% was a result.<br>
-<img width="1120" alt="v-cityView" src="https://user-images.githubusercontent.com/87907584/147481871-366863e8-1fd8-4e49-86d2-ed053d649ebc.png">
-
-
-
+## Preliminary Results 
+A small sample of the dataset was used to train and a logistics regression model was used.  A preliminary accuracy score of 98% was a result.  Source code is located in the Notebooks folder of this repo 'logisticsRegression_code_sample'<br>
+![Logistics_Regression_Accuracy](https://user-images.githubusercontent.com/87907584/147482656-6d36d2e1-f08c-425d-88b2-d2b13490f15f.PNG)
