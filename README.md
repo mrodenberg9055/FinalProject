@@ -1,16 +1,18 @@
-# FinalProject - Data Analyst 
+# FinalProject - Data Analyst Placement Analysis
 ## Topic: 
-Where is the best place for a up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleges on how location can effect job opportunites. Our data has mostly been sourced from job search websitle like Indeed.
+Where is the best place for an up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleges on how location can effect job opportunites.
+## Source:
+Our data has mostly been sourced from job search websitle like Indeed. The other parts of data we gathered from covid data sources like usafacts.org and census data from census.gov
 ## Outline:
 ### Questions to answer:
 * What location has the highest income vs cost of living?
 * What locations/companies have the highest approval rating?
 * What place has the lowest covid risk?
-### Communication
+### Communication:
 We have been communicating on Slack and making great use of class time for collaboration.
-## Database
+## Database:
 * We have csv files conatianing information on cost of living, covid data, crime rates, unemployment, and information on local schools.
 * We have a view in page admin that joins a few of the datasets by city name. The output:
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/tree/main/static/images/v-cityView.png)
-## Machine Learning Model
-Our plan for Machine Learning is to use Natural Language Processing to uncover trends in Job descriptions on job-listing websites.
+## Machine Learning Model:
+Our plan for Machine Learning is to use Natural Language Processing to uncover trends in Job descriptions on job-listing websites. Our plan is to compare and rank keywords found in job descriptions to that jobs rating on the job-listing site.
