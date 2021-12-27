@@ -1,0 +1,19 @@
+# Machine Learning Model 
+# SVC Linear Regression model???
+# Yes or no decision based on variable
+# Determine what is Yes or No per variable
+
+# Cost of living index by city (cost_of_living_index_by_city.csv)
+# outcome = 0 (yes) index is >=100
+# outcome = 1 (no) index is <100
+
+# Unemployment by county (Unemployment_2020.csv)
+# outcome = 0 (yes) rate is <= 5%
+# outcome = 1 (no) rate is > 5%
+
+# Median Income by county (Unemployment_2020.csv)
+# outcome = 0 (yes) index is >=100
+# outcome = 1 (no) index is <100
+
+# Additional Features
+# - Postsecondary Locations, covid19 vaccination rates??,
