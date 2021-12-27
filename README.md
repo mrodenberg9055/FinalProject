@@ -13,8 +13,8 @@ We have been communicating on Slack and making great use of class time for colla
 ## Database:
 * We have csv files conatianing information on cost of living, covid data, crime rates, unemployment, and information on local schools.
 * We have a view in page admin that joins a few of the datasets by city name. The output:<br />
-![Dataset](https://github.com/mrodenberg9055/FinalProject/tree/main/static/images/v-cityView.png)<br />
+![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/v-cityView.png)<br />
 * We have have draw an ERD to represent the above view:<br />
-![Dataset](https://github.com/mrodenberg9055/FinalProject/tree/main/static/images/DataAnalystERD.drawio.png)
+![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
 ## Machine Learning Model:
 Our plan for Machine Learning is to use Natural Language Processing to uncover trends in Job descriptions on job-listing websites. Our plan is to compare and rank keywords found in job descriptions to that jobs rating on the job-listing site.
