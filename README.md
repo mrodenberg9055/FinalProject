@@ -69,7 +69,7 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US
 
 ### Preliminary Results
 A small subset of data was tested using a logitistics regression model. The dataset was trained and generated an accuracy score of 98%.
-
+![Code](https://github.com/mrodenberg9055/FinalProject/blob/main/logisticsRegression_code_sample.ipynb)
 
 
 
