@@ -53,23 +53,23 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US etc.
 - Determine what is Yes or No per variable
 
 ### Cost of living index by city (cost_of_living_index_by_city.csv)
-- outcome = 0 (yes) index is >=100
-- outcome = 1 (no) index is <100
+- outcome = 0 (no) index is >=100
+- outcome = 1 (yes) index is <100
 
 ### Unemployment by county (Unemployment_2020.csv)
-- outcome = 0 (yes) rate is <= 5%
-- outcome = 1 (no) rate is > 5%
+- outcome = 0 (no) rate is > 5%
+- outcome = 1 (yes) rate is <= 5%
 
 ### Median Income by county (Unemployment_2020.csv)
-- outcome = 0 (yes) index is >=100
-- outcome = 1 (no) index is <100
+- outcome = 0 (no) index is <100
+- outcome = 1 (yes) index is >=100
 
 ### Additional Features
 Postsecondary Locations, covid19 vaccination rates, job locations in the US
 
-### Preliminary Results
-A small subset of data was tested using a logitistics regression model. The dataset was trained and generated an accuracy score of 98%.
-![Code](https://github.com/mrodenberg9055/FinalProject/blob/main/logisticsRegression_code_sample.ipynb)
+### Preliminary Results 
+A small sample of the dataset was used to train and a logistics regression model was used.  A preliminary accuracy score of 98% was a result.<br>
+<img width="1120" alt="v-cityView" src="https://user-images.githubusercontent.com/87907584/147481871-366863e8-1fd8-4e49-86d2-ed053d649ebc.png">
 
 
 
