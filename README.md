@@ -1,4 +1,7 @@
-# FinalProject - Data Analyst Placement Analysis
+# FinalProject - Data Analyst Job Placement Analysis
+![image](https://user-images.githubusercontent.com/87907584/147476902-32ce9208-6abb-47ef-9dd0-c538478dbf67.png)
+
+
 ## Topic: 
 Where is the best place for an up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleages on how location can effect job opportunites.
 ## Source: Datasets were provided by the following sources
@@ -49,16 +52,3 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US etc.
 ### The ERD representation showcases the joins used to create and merger the datasets<br />
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
 
-### Machine Learning Model:
-- The Final Project will develop a machine learning model to identify the best areas to work using the knowledge obtained from this course. Currently a logistics regression model will be used, however, an alternative model may be selected ultimately. 
-- The following variables were used to train the model.
--	Cost of Living
--	Unemployment Rate
--	Median Income
-- Additional features will include the following
--	Postsecondary locations – for continuing education
--	Climate
--	Vaccination rates
-
-### Preliminary Findings
-After using a logistics regression model, accuracy after training was determined to be at 98%.  See screen shots of code provided below. 
