@@ -33,8 +33,7 @@ Where is the best place for an up and coming data analyst to work? We selected t
 #### Additional Features
 Postsecondary Locations, covid19 vaccination rates, job locations in the US etc....
 
-### Preliminary Findings
-After using a logistics regression model, accuracy after training was determined to be at 98%.  See screen shots of code provided below. 
+
 
 
 
@@ -44,11 +43,10 @@ After using a logistics regression model, accuracy after training was determined
 -	Emails and phone numbers were exchanged in cases of emergency.
 -	Group messaging within Slack is the primary source of communication.
 
-### Database:
-- CSV files containing selected datasets are located in the Resource folder of this repo.<br/>
-- The screenshot provided shows selected datasets using pgadmin that joins a few of the datasets by city name.<br />
+## Database:
+### CSV files containing selected datasets are located in the Resource folder<br/>
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/v-cityView.png)<br />
-- The ERD representation showcases the joins used to create and merger the datasets:<br />
+### The ERD representation showcases the joins used to create and merger the datasets<br />
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
 
 ### Machine Learning Model:
@@ -61,3 +59,6 @@ After using a logistics regression model, accuracy after training was determined
 -	Postsecondary locations – for continuing education
 -	Climate
 -	Vaccination rates
+
+### Preliminary Findings
+After using a logistics regression model, accuracy after training was determined to be at 98%.  See screen shots of code provided below. 
