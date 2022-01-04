@@ -1,5 +1,6 @@
-# FinalProject - Data Analyst Job Placement Analysis
-![image](https://user-images.githubusercontent.com/87907584/147476902-32ce9208-6abb-47ef-9dd0-c538478dbf67.png)
+# FinalProject - Machine Learning and Data Analysis
+
+![image](https://user-images.githubusercontent.com/87907584/147997478-dc6f0617-50b8-4888-bbc9-97623c6ba695.png)
 
 ### [Google Slides Presentation](https://docs.google.com/presentation/d/13dTnXjnmqY02B5p23VXAq6WMEDNvwSjT_NYVZOQXoYg/edit?usp=sharing)
 
