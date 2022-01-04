@@ -61,8 +61,8 @@ Once preprocessing was complete, the encoded data set was exported to a CSV file
 ![Acc_Cost_of_Living](https://user-images.githubusercontent.com/87907584/147996958-655ed841-ed1d-4ccf-b78b-8e8ee5689c82.PNG)
 
 ### Unemployment Index
-- outcome = 0 (no) rate is > 5%
-- outcome = 1 (yes) rate is <= 5%
+- outcome = 0 (no) rate is > 6%
+- outcome = 1 (yes) rate is <= 6%
 - Results - Accuracy Score 67.94 (sad)
 - Source code - Unemployment_Index_ML.ipynb
 ####  Confusion Matrix Was illustrated using a heatmap
