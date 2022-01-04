@@ -16,7 +16,7 @@ We would like to build a model that accurately tells us the best places to look 
 
 ## Outline:
 ✓ Description of data preprocessing 
-Data preprocessing was performed using Boolean indicators on our outcomes.  The majority of our data was already numerical and the outcomes for each index were known due to already having an established threshold.  Our (outcomes) were changed to a boolean indicator based on that threshold and assigned a number of 0 or 1, which indicates if the selection is good or bad based on the variable. 
+- Data preprocessing was performed using Boolean indicators on our outcomes.  The majority of our data was already numerical and the outcomes for each index were known due to already having an established threshold.  Our (outcomes) were changed to a boolean indicator based on that threshold and assigned a number of 0 or 1, which indicates if the selection is good or bad based on the variable. 
 
 #### Dataset before Preprocessing
 ![PreProcessing_Before](https://user-images.githubusercontent.com/87907584/147997089-40061489-702b-479f-87b8-036a1565637a.PNG)
@@ -42,7 +42,7 @@ Once preprocessing was complete, the encoded data set was exported to a CSV file
 
 ✓ Description of how they have trained the model thus far, and any additional training that will take place
 - Looking into neural networks to measure performance. 
-- Might try to incorporate some colums previously dropped for models with a lower accuracy score. 
+- Might try to incorporate some columns previously dropped for models with a lower accuracy score. 
 
 ✓ Description of current accuracy score per model are described below. 
 
