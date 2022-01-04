@@ -1,47 +1,92 @@
 # FinalProject - Data Analyst Job Placement Analysis
 ![image](https://user-images.githubusercontent.com/87907584/147476902-32ce9208-6abb-47ef-9dd0-c538478dbf67.png)
+
 ### [Google Slides Presentation](https://docs.google.com/presentation/d/13dTnXjnmqY02B5p23VXAq6WMEDNvwSjT_NYVZOQXoYg/edit?usp=sharing)
 
 ## Topic: 
-Where is the best place for an up and coming data analyst to work? We selected this topic because we want to better inform ourselves and colleages on how location can effect job opportunites.
+We would like to build a model that accurately tells us the best places to look for employment following graduation from databootcamp!  You are willing to travel anywhere, and are only concerned with the economics of that location.  You will evaluate the cost of living, median household income, unemployment and vaccination rates to make the best decision as to where you will begin your new career!  We developed models for each of those desirable variables using logtics regression.  We want to predict a choice.  Simply yes/no or good/bad in this case.  Using datasets from government agencies, we were able to obtain, percentage indexes for those variables.  This allowed us to determine what was considered to be a good choice or a bad choice when looking at an area. 
+
 
 ## Source: Datasets were provided by the following sources
 - Job data datasets were scraped from Indeed.com
 - Cost of living dataset provided by the website 'AdvisorSmith Cost of living index'
 - Post Secondary Location dataset was provided by the website data.gov
 - Unemployment and median household income dataset was provided by the website usda.gov
+
 ## Outline:
-- Technologies that will be used are the following
-- PGAdmin will be used to store the data, multiple datasets were combined into one dataset
-- Jupyter notebook and visual studio code is being used to write the code
-- Tableau will be used as the dashboard to provide visual representations
+✓ Description of data preprocessing 
+Data preprocessing was performed using Boolean indicators on our outcomes.  The majority of our data was already numerical and the outcomes for each index were known due to already having an established threshold.  Our (outcomes) were changed to a boolean indicator based on that threshold and assigned a number of 0 or 1, which indicates if the selection is good or bad based on the variable. 
 
-#### Machine Learning Model 
-- Logitics Regression model or Random Forest Classifier
-- Yes or No decision based on variable
-- Determine what is Yes or No per variable
+#### Dataset before Preprocessing
 
-### Cost of living index by city (cost_of_living_index_by_city.csv)
+
+#### Dataset following Preprocessing
+
+
+Once preprocessing was complete, the encoded data set was exported to a CSV file (encoded_dataset.csv in the 'Resource' folder) to be used for Machine Learning models.  
+
+✓ Description of feature engineering and the feature selection, including their decision making process
+- Latitudes and Longitudes were removed - Not needed and contained too many variances
+- County, City, and State names were dropped as they are not numerical
+
+✓ Description of how data was split into training and testing sets
+- The data was split 70% training and 30% testing. 
+- 'X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=0)'
+
+✓ Explanation of model choice, including limitations and benefits - Logistics regression was the model of choice. 
+- Benefits - The model is easy to use and can predict a decision based on the input. 
+- The disadvantages/limitations of the model - The model requires a large dataset, prone to overfitting. 
+
+✓ Description of how they have trained the model thus far, and any additional training that will take place
+- Looking into neural networks to measure performance. 
+- Might try to incorporate some colums previously dropped for models with a lower accuracy score. 
+
+✓ Description of current accuracy score per model are described below. 
+
+### Machine Learning Models
+- A model was generated for each feature identified
+
+### Cost of Living Index 
 - outcome = 0 (no) index is >=100
 - outcome = 1 (yes) index is <100
+- Results - Accuracy score of 88.99 (ok!)
+- Source Code - Cost_of_Living_ML.ipynb
+####  Confusion Matrix Was illustrated using a heatmap
 
-### Unemployment by county (Unemployment_2020.csv)
+#### Accuracy/Classification Report
+
+
+
+### Unemployment Index
 - outcome = 0 (no) rate is > 5%
 - outcome = 1 (yes) rate is <= 5%
+- Results - Accuracy Score 67.94 (sad)
+- Source code - Unemployment_Index_ML.ipynb
+####  Confusion Matrix Was illustrated using a heatmap
 
-### Median Income by county (Unemployment_2020.csv)
+#### Accuracy/Classification Report
+
+
+### Median Income Index
 - outcome = 0 (no) index is <100
-- outcome = 1 (yes) index is >=100
+- outcome - 1 (yes) index is >=100
+- Results - Accuracy Score 76.13 (meh)
+- Source code - Median_Income_Index_ML.ipynb
+#### Confusion Matrix Was illustrated using a heatmap
 
-#### Additional Features
-Postsecondary Locations, covid19 vaccination rates, job locations in the US and climate
+#### Accuracy/Classification Report
 
 
-## Communication Protocols:
-#### The following communication protocols have been established within the group
--	One additional meeting is scheduled during the week to discuss upcoming deliverables and next plans of action.
--	Emails and phone numbers were exchanged in cases of emergency.
--	Group messaging within Slack is the primary source of communication.
+### Vaccination Index
+- outcome = 0 (no) index is <= 60%
+- outcome = 1 (yes) index is >= 60%
+- Results - Accuracy Score 78.88% (meh)
+- Source code - Vaccination_Index_ML.ipynb
+#### Confusion Matrix Was illustrated using a heatmap
+
+
+####  Accuracy/Classification Report
+
 
 ## Database:
 ### PGAdmin - NOTE: CSV files containing selected datasets are located in the Resource folder<br/>
@@ -50,8 +95,3 @@ Postsecondary Locations, covid19 vaccination rates, job locations in the US and 
 
 - The ERD representation showcases the joins used to create and merge the datasets<br/>
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
-
-
-## Preliminary Results 
-A small sample of the dataset was used to train and a logistics regression model was used.  A preliminary accuracy score of 98% was a result.  Source code is located in the Notebooks folder of this repo 'logisticsRegression_code_sample'<br>
-![Logistics_Regression_Accuracy](https://user-images.githubusercontent.com/87907584/147482656-6d36d2e1-f08c-425d-88b2-d2b13490f15f.PNG)
