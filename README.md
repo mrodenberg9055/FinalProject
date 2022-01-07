@@ -102,8 +102,4 @@ Once preprocessing was complete, the encoded data set was exported to a CSV file
 - The ERD representation showcases the joins used to create and merge the datasets<br/>
 ![Dataset](https://github.com/mrodenberg9055/FinalProject/blob/main/static/images/DataAnalystERD.drawio.png)
 
-## Dashboard (Tableau) Roadmap
-- Show relationships between variables using plots or graphs
-- Include Results with depictions of the completed models
-- Incorporate job data (fingers crossed)
 
